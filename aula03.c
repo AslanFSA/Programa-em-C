@@ -12,7 +12,7 @@ int main(int argc, char *argv[]) {
 	scanf("%i",&y);
 	
 	// Criar tabuada
-	for (n = 0; n <= 20; n++) {
+	for (n = 0; n <= 30; n++) {
 		result = n * y;
 		printf("%i x %i = %i\n", y, n, result);
 	}
